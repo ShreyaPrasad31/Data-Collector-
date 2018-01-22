@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang = "en">
+<title> Data Collector </title>
+<head> 
+<link href = "../static/main.css" rel ="stylesheet">
+</head>
+<body>
+<div class="container">
+<h1> Collecting Coop Data </h1>
+<h3> Please fill the enteries below to get statistics of Waterloo's first coop </h3>
+<form action="{{url_for('success')}}" method="POST">
+<input title = "Your email will be safe" placeholder="Enter your email" type="email" required name="email_name"><br>
+<input title="Your data will be safe" placeholder="Enter you first coop salary" type="number" min=0 max=300 step = 0.1 required name="salary_name">
+<button type="submit"> Submit! </button>
+</form>
+
+</div>
+</body>
+</html>

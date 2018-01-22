@@ -1,0 +1,65 @@
+html,body{
+	height: 100%;
+	margin: 0;
+}
+.container{
+	text-align: center;
+	background-color: #1E90FF /*rgba(255, 99, 71, 0.8);*/
+	color: black;
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+}
+.container h1{
+	margin-top: 90px;
+	font-family: Helvetica;
+	font-size: 50px;
+
+}
+.container h3{
+	margin-top: 40px;
+	font-family: Helvetica;
+	font-size: 20px;
+}
+.container form{
+	margin: 70px;
+}
+.container input{
+	width: 350px;
+	height: 30px;
+	margin: 6px;
+	font-size: 20px;
+	padding: 20px;
+	transition: all 0.3 ease-in-out;
+
+}
+.container button{
+  width: 130px;
+  height: 40px;
+  background: linear-gradient(to bottom, #4eb5e5 0%,#389ed5 100%); 
+  border: none;
+  border-radius: 5px;
+  position: relative;
+  border-bottom: 4px solid #2b8bc6;
+  color: #fbfbfb;
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+  text-shadow: 1px 1px 1px rgba(0,0,0,.4);
+  font-size: 15px;
+  text-align: left;
+  text-indent: 5px;
+  box-shadow: 0px 3px 0px 0px rgba(0,0,0,.2);
+  cursor: pointer;
+
+/* Just for presentation */  
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px; 
+  text-align: center;
+}
+
+.container p{
+	margin: 170px;
+	font-family: Helvetica;
+	font-size: 20px;
+}
