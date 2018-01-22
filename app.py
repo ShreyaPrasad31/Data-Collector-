@@ -1,9 +1,9 @@
-from flask import Flask, render_template, request
+rom flask import Flask, render_template, request
 
 from flask.ext.sqlalchemy import SQLAlchemy 
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI']='postgresql://postgres:Sh31121998!@localhost/salary_collector'
+app.config['SQLALCHEMY_DATABASE_URI']='postgresql://postgres:********@localhost/salary_collector'
 db = SQLAlchemy(app)
 
 class Data(db.Model):
