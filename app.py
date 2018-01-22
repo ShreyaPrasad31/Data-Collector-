@@ -33,8 +33,8 @@ def success():
 
 			data = Data(email,salary)
 			db.session.add(data)
-		db.session.commit()
-		return render_template("success.html")
+			db.session.commit()
+			return render_template("success.html")
 
 
 if __name__=="__main__":
